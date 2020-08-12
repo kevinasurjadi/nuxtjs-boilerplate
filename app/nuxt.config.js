@@ -35,6 +35,7 @@ export default {
   ** https://nuxtjs.org/guide/plugins
   */
   plugins: [
+    '~/plugins/http'
   ],
   /*
   ** Auto import components
@@ -50,7 +51,13 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    '@nuxt/http'
   ],
+  /*
+  ** Nuxt HTTP module configuration
+  ** See https://http.nuxtjs.org/
+  */
+  http: {},
   /*
   ** Build configuration
   ** See https://nuxtjs.org/api/configuration-build/
