@@ -22,3 +22,6 @@ start:
 
 storybook:
 	sudo docker-compose run --service-ports app yarn storybook
+
+test:
+	sudo docker-compose run app yarn test
