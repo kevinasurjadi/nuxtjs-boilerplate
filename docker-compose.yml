@@ -9,6 +9,7 @@ services:
     env_file: ./.env
     ports:
       - "3000:3000"
+      - "4000:4000"
     working_dir: /var/www
     volumes:
       - ./app:/var/www

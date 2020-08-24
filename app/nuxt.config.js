@@ -59,6 +59,20 @@ export default {
   */
   http: {},
   /*
+  ** Nuxt Storybook module configuration
+  ** See https://storybook.nuxtjs.org/
+  */
+  storybook: {
+    port: 4000,
+    stories: [
+      '~/stories/**/*.stories.js'
+    ],
+    addons: [
+      '@storybook/addon-knobs',
+      '@storybook/addon-docs',
+    ]
+  },
+  /*
   ** Build configuration
   ** See https://nuxtjs.org/api/configuration-build/
   */

@@ -25,6 +25,9 @@ $ make run-dev
 
 // to run in production mode
 $ make run
+
+// to run storybook
+$ make storybook
 ```
 
 #### Manual
@@ -43,11 +46,15 @@ $ yarn dev
 
 // to run in production mode
 $ yarn build && yarn start
+
+// to run storybook
+$ yarn storybook
 ```
 
 ### Dependencies
 
 - [Nuxt HTTP Module](https://http.nuxtjs.org/)
+- [NuxtJS Storybook](https://storybook.nuxtjs.org/)
 
 ### Resources
 

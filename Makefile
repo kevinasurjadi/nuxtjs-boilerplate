@@ -19,3 +19,6 @@ build:
 
 start:
 	sudo docker-compose run --service-ports app yarn start
+
+storybook:
+	sudo docker-compose run --service-ports app yarn storybook
